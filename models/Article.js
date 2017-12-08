@@ -22,12 +22,6 @@ var ArticleSchema = new Schema({
       required: true
    },
 
-   //Article Summary
-   summary: {
-      type: String,
-      required: true
-   },
-
    //Date of article scrape (saved as a string for ease of use with MomentJS)
    update: {
       type: String,

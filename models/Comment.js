@@ -14,7 +14,14 @@ var CommentSchema = new Schema({
 
    //Comment Content
    content: {
-      type: String
+      type: String,
+      require: true
+   },
+
+   //Post Id
+   PostId : {
+      type: String,
+      require: true
    }
 });
 
