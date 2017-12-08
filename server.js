@@ -19,7 +19,7 @@ app.use(logger('dev'));
 app.use(bodyParser.urlencoded({extended: true}));
 
 //Server Static Content
-app.use(express.static(process.cwd() + '/public'));
+app.use(express.static('/public'));
 
 //Express-Handlebars
 //================================================================
